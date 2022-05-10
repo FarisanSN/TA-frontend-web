@@ -1,0 +1,274 @@
+.signing {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.signing .signingContent .signingTitle {
+  margin-bottom: 100px;
+  font-family: "Trebuchet MS";
+  font-size: 60px;
+}
+
+input[type='file']{
+  margin-top: 160px;
+  display: none;
+}
+
+input[type='password']{
+  color: #1f2937;
+  height: 30px;
+  width: 250px;
+  background-color: #ededed;
+  position: absolute;
+  transform: translate(0, 40px);
+  margin: auto;
+  border: #1f2937;
+  border-radius: 5px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: "Trebuchet MS";
+}
+input[type='text']{
+  color: #1f2937;
+  height: 30px;
+  width: 280px;
+  background-color: #ededed;
+  position: absolute;
+  transform: translate(0, 40px);
+  margin: auto;
+  border: #1f2937;
+  border-radius: 5px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: "Trebuchet MS";
+}
+
+input[type='password']{
+  color: #1f2937;
+  height: 30px;
+  width: 280px;
+  background-color: #ededed;
+  position: absolute;
+  transform: translate(0, 40px);
+  margin: auto;
+  border: #1f2937;
+  border-radius: 5px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: "Trebuchet MS";
+}
+
+input[id='reason']{
+  color: #1f2937;
+  height: 30px;
+  width: 280px;
+  background-color: #ededed;
+  position: absolute;
+  transform: translate(0, 80px);
+  margin: auto;
+  border: #1f2937;
+  border-radius: 5px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: "Trebuchet MS";
+}
+
+button[id="showpass"]{
+  color: #1f2937;
+  height: 25px;
+  width: 50px;
+  background-color: #ededed;
+  position: absolute;
+  transform: translate(110px, 40px);
+  margin: auto;
+  border: #1f2937;
+  border-radius: 5px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: "Trebuchet MS";
+}
+
+button[id="signbutton"]{
+  color: white;
+  height: 30px;
+  width: 80px;
+  background-color: #1f2937;
+  position: absolute;
+  transform: translate(-50px, 120px);
+  margin: auto;
+  border: #1f2937;
+  border-radius: 5px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: "Trebuchet MS";
+}
+
+a[id="download"]{
+  color: white;
+  height: 30px;
+  width: 80px;
+  background-color: #1f2937;
+  position: absolute;
+  transform: translate(50px, 120px);
+  margin: auto;
+  border: #1f2937;
+  border-radius: 5px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: "Trebuchet MS";
+}
+
+label[for='document']{
+  color: white;
+  height: 50px;
+  width: 180px;
+  background-color: #1f2937;
+  position: absolute;
+  transform: translate(0, -80px);
+  margin: auto;
+  border: none;
+  border-radius: 5px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: "Trebuchet MS";
+}
+
+label[for='certificate']{
+  color: white;
+  height: 50px;
+  width: 180px;
+  background-color: #1f2937;
+  position: absolute;
+  transform: translate(0, -20px);
+  margin: auto;
+  border: none;
+  border-radius: 5px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: "Trebuchet MS";
+}
+
+label[for='docname']{
+  color: #1f2937;
+  height: 50px;
+  width: 180px;
+  position: absolute;
+  transform: translate(150px, -80px);
+  margin: auto;
+  border: none;
+  border-radius: 5px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: "Trebuchet MS";
+}
+
+label[for='certname']{
+  color: #1f2937;
+  height: 50px;
+  width: 180px;
+  position: absolute;
+  transform: translate(150px, -20px);
+  margin: auto;
+  border: none;
+  border-radius: 5px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: "Trebuchet MS";
+}
+label[for='docname']{
+  color: #1f2937;
+  height: 50px;
+  width: 180px;
+  position: absolute;
+  transform: translate(150px, -80px);
+  margin: auto;
+  border: none;
+  border-radius: 5px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: "Trebuchet MS";
+}
+
+label[for='download']{
+  color: white;
+  height: 30px;
+  width: 80px;
+  background-color: #1f2937;
+  position: absolute;
+  transform: translate(50px, 120px);
+  margin: auto;
+  border: #1f2937;
+  border-radius: 5px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: "Trebuchet MS";
+}

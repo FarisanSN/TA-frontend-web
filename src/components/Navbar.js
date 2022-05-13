@@ -18,18 +18,18 @@ function Navbar() {
         <div className="hiddenLinks">
           <Link to="/"> Home </Link>
           <Link to="/signing"> Sign </Link>
-          <a href="http://34.101.251.251:8080/" target='_blank' rel="noreferrer">Verify</a>
+          <a href="http://34.101.147.94:8080/" target='_blank' rel="noreferrer">Verify</a>
           {/* <Link to="/verify"> Verify </Link> */}
-          <a href="http://google.com/" target='_blank' rel="noreferrer">Get Certificate</a>
+          <a href="https://34.101.36.152:8442/ejbca/ra/index.xhtml" target='_blank' rel="noreferrer">Get Certificate</a>
           {/* <Link to="/getcertificate">  </Link> */}
         </div>
       </div>
       <div className="rightSide">
         <Link to="/"> Home </Link>
         <Link to="/signing"> Sign </Link>
-        <a href="http://34.101.251.251:8080/" target='_blank' rel="noreferrer">Verify</a>
+        <a href="http://34.101.147.94:8080/" target='_blank' rel="noreferrer">Verify</a>
         {/* <Link to="/verify"> Verify </Link> */}
-        <a href="http://google.com/" target='_blank' rel="noreferrer">Get Certificate</a>
+        <a href="https://34.101.36.152:8442/ejbca/ra/index.xhtml" target='_blank' rel="noreferrer">Get Certificate</a>
         {/* <Link to="/getcertificate"> Get Certificate </Link> */}
         <button onClick={toggleNavbar}>
           <ReorderIcon />

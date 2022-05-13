@@ -47,6 +47,36 @@ export default class SignPDF {
     ByteRange.push(PDFName.of(DEFAULT_BYTE_RANGE_PLACEHOLDER));
     ByteRange.push(PDFName.of(DEFAULT_BYTE_RANGE_PLACEHOLDER));
 
+    var xmlHttp;
+    function srvTime(){
+      try {
+          //FF, Opera, Safari, Chrome
+          xmlHttp = new XMLHttpRequest();
+      }
+      catch (err1) {
+          //IE
+          try {
+              xmlHttp = new window.ActiveXObject('Msxml2.XMLHTTP');
+          }
+          catch (err2) {
+              try {
+                  xmlHttp = new window.ActiveXObject('Microsoft.XMLHTTP');
+              }
+              catch (err3) {
+                  //AJAX not supported, use CPU time.
+                  alert("AJAX not supported");
+              }
+          }
+      }
+      xmlHttp.open('HEAD',window.location.href.toString(),false);
+      xmlHttp.setRequestHeader("Content-Type", "text/html");
+      xmlHttp.send('');
+      return xmlHttp.getResponseHeader("Date");
+    }
+
+    var st = srvTime();
+    console.log(st)
+
     const signatureDict = loadedPdf.context.obj({
       Type: 'Sig',
       Filter: 'Adobe.PPKLite',
@@ -54,7 +84,7 @@ export default class SignPDF {
       ByteRange,
       Contents: PDFHexString.of('A'.repeat(SIGNATURE_LENGTH)),
       Reason: PDFString.of(reason),
-      M: PDFString.fromDate(new Date()),
+      M: PDFString.fromDate(new Date(st)),
     });
 
     const signatureDictRef = loadedPdf.context.register(signatureDict);

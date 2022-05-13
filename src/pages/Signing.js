@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Signing.css";
 import SignPDF from "./SignPDF.js";
-import Navbar from "../components/Navbar";
+// import Navbar from "../components/Navbar";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -79,7 +79,6 @@ function Signing() {
 
   return (
     <div className="signing">
-      <Navbar/>
         <div className="signingContent">
         <h1 className="signingTitle">Signing</h1>
           <div>
@@ -97,7 +96,7 @@ function Signing() {
             <label for='certname'>{certname}</label>
           </div>
           <div>
-            <input type={passwordShown ? "text" : "password"} placeholder="Password" id="password" onChange={onChangePassword}/>
+            <input type={passwordShown ? "text" : "password"} placeholder="Passphrase" id="password" onChange={onChangePassword}/>
             <button id="showpass" onClick={togglePassword}>
               Show
             </button>

@@ -11,15 +11,16 @@ function Home() {
           {/* <img link="../assets/itb.png" alt="sasas"></img> */}
           <h1>Tanda Tangan Digital</h1>
           <p>Menggunakan Infrastruktur Kunci Publik</p>
+          <p2>Copyright Kelompok 2</p2>
         </div>
         <div>  
           <Link to="/signing">
             <button id="Sign">Sign</button>
           </Link>
-            <a href="http://34.101.251.251:8080/" target='_blank' rel="noreferrer">
+            <a href="http://34.101.147.94:8080/" target='_blank' rel="noreferrer">
               <button id="Verify">Verify </button>
             </a>
-            <a href="http://google.com/" target='_blank' rel="noreferrer">
+            <a href="https://34.101.36.152:8442/ejbca/ra/index.xhtml" target='_blank' rel="noreferrer">
               <button id="ejbca">Get Certificate </button>
             </a>
         </div>

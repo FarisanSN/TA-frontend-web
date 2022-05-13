@@ -202,7 +202,7 @@ label[for='docname']{
   height: 50px;
   width: 180px;
   position: absolute;
-  transform: translate(150px, -80px);
+  transform: translate(200px, -80px);
   margin: auto;
   border: none;
   border-radius: 5px;
@@ -210,7 +210,7 @@ label[for='docname']{
   bottom: 0;
   right: 0;
   left: 0;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   display: flex;
   font-family: "Trebuchet MS";
@@ -221,7 +221,7 @@ label[for='certname']{
   height: 50px;
   width: 180px;
   position: absolute;
-  transform: translate(150px, -20px);
+  transform: translate(200px, -20px);
   margin: auto;
   border: none;
   border-radius: 5px;
@@ -229,45 +229,7 @@ label[for='certname']{
   bottom: 0;
   right: 0;
   left: 0;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  font-family: "Trebuchet MS";
-}
-label[for='docname']{
-  color: #1f2937;
-  height: 50px;
-  width: 180px;
-  position: absolute;
-  transform: translate(150px, -80px);
-  margin: auto;
-  border: none;
-  border-radius: 5px;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  font-family: "Trebuchet MS";
-}
-
-label[for='download']{
-  color: white;
-  height: 30px;
-  width: 80px;
-  background-color: #1f2937;
-  position: absolute;
-  transform: translate(50px, 120px);
-  margin: auto;
-  border: #1f2937;
-  border-radius: 5px;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   display: flex;
   font-family: "Trebuchet MS";

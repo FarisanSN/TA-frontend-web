@@ -1,2 +1,1 @@
-Credit to Machadiop1407
-https://github.com/machadop1407/
+Copyright Kelompok 2 TA
